@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "typewriter";
+    src: url("fonts/momt___-webfont.woff2") format("woff2"), url("fonts/momt___-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+ body, html {
+     height: 100vh;
+     width: 100vw;
+     font-family: "typewriter";
+     box-sizing: border-box;
+     background-color: black;
+ }
+
+ #main {
+     display: flex;
+     justify-content: center;
+     max-width: 100vw;
+     
+ }
+
+ /* Left hand side of page*/
+
+ #side-hero {
+     width: 40vw;
+     height: 100vh;
+     background-image: url("images/1millidollars-ySBZB_9Vg7k-unsplash.jpg");
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+
+ #wrapper {
+     display: flex;
+     justify-content: center;
+     align-self: flex-start;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     height: 20vh;
+ }
+
+#wrapper img {
+    padding: 10px;
+    height: 90%;
+}
+
+#wrapper h1 {
+    display: flex;
+    align-self: center;
+    font-size: 5em;
+}
+
+#side-hero p {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+}
+
+/*right hand side of page*/
+
+#form-section {
+    display: flex;
+    max-height: 100vh;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    overflow: hidden;
+    gap: 10px;
+}
+
+#header {
+    font-size: 1.5rem;
+    padding: 20px;
+    max-height: 30vh;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 10px 2px -2px rgb(0, 0, 0);
+    max-height: 40vh;
+}
+
+#form p {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.left, .right {
+    padding: 30px;
+}
+
+#input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 30vh;
+}
+
+
+input, label {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+#submit-section {
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+button {
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(33, 6, 94);
+    color: white;
+}
+
+/* settings for interacting with forms */
+
+input:focus {
+    outline-color: blue;
+}
+
+input:required:valid {
+    border-color: rgb(11, 167, 32);
+}
