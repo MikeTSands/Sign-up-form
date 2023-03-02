@@ -1,7 +1,6 @@
 @font-face {
-    font-family: "typewriter";
-    src: url("./fonts/journal-webfont.woff2") format("woff2"), url("./fonts/journal-webfont.woff")
-        format("woff");
+    font-family: "Norse-Bold";
+    src: url("./fonts/Norse-Bold.otf");
     font-weight: normal;
     font-style: normal;
   }
@@ -10,7 +9,7 @@
  body, html {
      height: 100vh;
      width: 100vw;
-     font-family: "typewriter";
+     font-family: "Norse-Bold";
      box-sizing: border-box;
      background-color: black;
  }
